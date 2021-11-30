@@ -9,7 +9,7 @@ import com.comsol.model.util.*
 
 model = ModelUtil.create('Model');
 
-model.modelPath('C:\Users\aswinmuralidha\Desktop');
+model.modelPath('');
 
 model.label('Array_2.mph');
 
@@ -29,7 +29,7 @@ model.component('comp1').mesh.create('mesh1');
 model.component('comp1').geom('geom1').lengthUnit('mm');
 model.component('comp1').geom('geom1').create('imp1', 'Import');
 model.component('comp1').geom('geom1').feature('imp1').set('type', 'dxf');
-model.component('comp1').geom('geom1').feature('imp1').set('filename', 'C:\Users\aswinmuralidha\OneDrive\20190820_hydroTrapping_eBeam_GPesch4.dxf');
+model.component('comp1').geom('geom1').feature('imp1').set('filename', 'Trap_CAD_file.dxf');
 model.component('comp1').geom('geom1').feature('imp1').set('alllayers', {'0'});
 model.component('comp1').geom('geom1').create('r1', 'Rectangle');
 model.component('comp1').geom('geom1').feature('r1').set('pos', {'-0.0270' '-0.35'});

@@ -3,3 +3,5 @@ The Comsol models used to simulate microtrap electroporation are provided here. 
 1. Distribution of electric field in the microtrap array (2D electric field distribution).
 2. The parametric sweep of the 3D time-dependent bulk electroporation model using the asymptotic model of electroporation.
 3. The parametric sweep of the 3D time-dependent micro-trap electroporation model using the asymptotic model of electroporation. 
+
+The bulk electroporation and micro-trap electroporation models are included in the same model titled Microtrap_EP.m
